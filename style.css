@@ -1,4 +1,54 @@
 body{
     background: #1C1C1C;
-
+}
+header{
+    background-color: #cfcfc4;  
+    padding: 60px 0;    
+    border: 2px solid gold; 
+}
+.caixa h1 a{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none; 
+    color: #1C1C1C;
+    position:absolute;
+    top: 10px;
+    left: 1%;
+}
+.caixa h1 a:hover{
+    font-size: 60px;
+    color: #003e51;
+}
+.caixa h1 a:active{
+    font-size: 60px;
+    color: #587992;
+}
+nav{
+    position:absolute;
+    top: 90px;
+    left: 0%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a:hover {
+    font-size: 25px;
+    color:  #003e51;
+}
+nav a:active{
+    color: #587992;
+}
+nav a{ 
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    border: 2px solid gold;
+    background-color: #cfcfc4;  
+    padding: 60px 0;     
 }
