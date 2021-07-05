@@ -1,54 +1,37 @@
 body{
     background: #1C1C1C;
 }
-header{
-    background-color: #cfcfc4;  
-    padding: 60px 0;    
-    border: 2px solid gold; 
+
+img{
+    border-radius: 50%;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    top: 150px;
 }
-.caixa h1 a{
-    text-transform: uppercase;
+h1{
+    color: #cfcfc4;
+    font-size: 40px;
+    font-family: cursive;
     text-align: center;
-    font-size: 50px;
-    text-decoration: none; 
-    color: #1C1C1C;
-    position:absolute;
-    top: 10px;
-    left: 1%;
 }
-.caixa h1 a:hover{
-    font-size: 60px;
-    color: #003e51;
+
+.tabelaesquerda{
+    position: relative;
+    text-align: center; 
+    margin: 0 10% 0;  
 }
-.caixa h1 a:active{
-    font-size: 60px;
-    color: #587992;
+
+.tabelaDireita{
+    position: relative;
+    text-align: center;
+    margin: 0 0 10%;
 }
-nav{
-    position:absolute;
-    top: 90px;
-    left: 0%;
-}
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-nav a:hover {
-    font-size: 25px;
-    color:  #003e51;
-}
-nav a:active{
-    color: #587992;
-}
-nav a{ 
-    text-transform: uppercase;
-    color: #1C1C1C;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
-}
-footer{
-    border: 2px solid gold;
-    background-color: #cfcfc4;  
-    padding: 60px 0;     
+
+table{
+    border: 2px #cfcfc4 solid;
+    border-radius: 20%;
 }
