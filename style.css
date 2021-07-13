@@ -43,3 +43,12 @@ table{
     border: 2px #cfcfc4 solid;
     border-radius: 20%;
 }
+#section1 {
+    height: 600px;
+    background-color: pink;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: yellow;
+  }
