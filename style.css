@@ -1,54 +1,117 @@
 body{
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    background-color:  #e0ebeb;
+    font-family: 'Londrina Sketch', cursive;
 }
-.dark-mode {
-    background-color: black;
-    color: white;
+.foto{
+    width: 100%;
+    
 }
-header button{
+.foto img{
     position: relative;
-    left: 1200px;
-}
-img{
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    top: 150px;
+    left: 40%;
 }
-h1{
-    font-size: 40px;
+.nome{
+    width: 100%;
+    height: 100px;
+
+}
+.nome h1{
+    font-size: 90px;
     text-align: center;
 }
-
-.tabelaesquerda{
-    position: relative;
-    text-align: center; 
-    margin: 0 10% 0;  
+main{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links{
+    width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.links li{
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.links li:hover {
+	border-color: #C78C19;
 }
 
-.tabelaDireita{
-    position: relative;
+.links li:active {
+	border-color: #088C19;	
+}
+
+.links li:hover h2 {
+	font-size: 34px;
+}
+
+.links h2 {
+	font-size: 30px;
+	font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.links p{
+    text-decoration: none;
+    color: black;
+   
+}
+
+.links2{
+    width: 940px;
+	margin: 0 auto;
+}
+.links2 li{
+    display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.links2 li:hover {
+	border-color: #C78C19;
+}
+
+.links2 li:active {
+	border-color: #088C19;	
+}
+
+.links2 li:hover h2 {
+	font-size: 34px;
+}
+
+.links2 h2 {
+	font-size: 30px;
+	font-weight: bold;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.links2 p{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
     text-align: center;
-    margin: 0 0 10%;
+	background: #c1d7d7; 
+	padding: 60px 10px;
+    
 }
-
-table{
-    border: 2px #cfcfc4 solid;
-    border-radius: 20%;
+footer p{
+    color: black;
+    font-family: cursive;
 }
-#section1 {
-    height: 600px;
-    background-color: pink;
-  }
-  
-  #section2 {
-    height: 600px;
-    background-color: yellow;
-  }
