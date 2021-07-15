@@ -1,9 +1,10 @@
 body{
-    background: linear-gradient( #e0ebeb, #c1d7d7);
-    font-family: 'Londrina Sketch', cursive;
+    background: linear-gradient( #ffffff, #f2f2f2,#e6e6e6,#d9d9d9);
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 .foto{
-    width: 100%;   
+    width: 100%;
+    height: 350px; 
 }
 .foto img{
     position: relative;
@@ -13,11 +14,11 @@ body{
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    top: 50px;
 }
 .nome{
-    width: 100%;
-    height: 100px;
-
+    position: relative;
+    top:50%;
 }
 .nome h1{
     font-size: 90px;
@@ -66,6 +67,10 @@ main{
     color: black;
    
 }
+.links li a{
+    text-align: center;
+    text-decoration: none;
+}
 
 .links-curriculos h6{
     display: inline;
@@ -74,9 +79,11 @@ main{
 }
 .links-curriculos-portugues:hover{
     text-decoration: underline;
+    color: #000000;
 }
 .links-curriculos-ingles:hover{
     text-decoration: underline;
+    color: #000099;
 }
 .links-curriculos img{
     width: 20px;
@@ -123,7 +130,7 @@ main{
 
 footer{
     text-align: center;
-	background: #c1d7d7; 
+	background: #d9d9d9; 
 	padding: 60px 10px;
     bottom: 0;
 }
