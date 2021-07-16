@@ -128,6 +128,11 @@ main{
     color: black;
 }
 
+.links2 li a{
+    text-align: center;
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
 	background: #d9d9d9; 
