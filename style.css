@@ -1,6 +1,6 @@
 body{
     background: linear-gradient( #ffffff, #f2f2f2,#e6e6e6,#d9d9d9);
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .foto{
     width: 100%;
@@ -24,9 +24,7 @@ body{
     font-size: 90px;
     text-align: center;
 }
-main{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .links{
     width: 940px;
 	margin: 0 auto;
@@ -36,20 +34,21 @@ main{
     display: inline-block;
 	text-align: center;
 	width: 30%;
+    height: 120px;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 10px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
-    box-shadow: 0 0 1em black;
-    transition: 1s all;
+   
+    
 }
 .links li:hover {
 	border-color: grey;
     border-color: grey;
     background-color: #cccccc;
-    transform: scale(1.2);
+    
 }
 
 .links li:active {
@@ -58,6 +57,12 @@ main{
 
 .links li:hover h2 {
 	font-size: 34px;
+}
+#li-curriculo h2{
+    padding-bottom: 5px;
+}
+.links img{
+    padding-bottom: 5px;
 }
 
 .links h2 {
@@ -76,7 +81,9 @@ main{
     text-align: center;
     text-decoration: none;
 }
-
+.links-curriculos{
+    padding-bottom: 15px;
+}
 .links-curriculos h6{
     display: inline;
     text-transform: uppercase;
@@ -102,19 +109,18 @@ main{
     display: inline-block;
 	text-align: center;
 	width: 30%;
+    height: 120px;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 10px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
-	border-radius: 10px;
-    box-shadow: 0 0 1em black;
-    transition: 1s all;
+	border-radius: 10px; 
 }
 .links2 li:hover {
 	border-color: grey;
     background-color: #cccccc;
-    transform: scale(1.2);
+    
 }
 
 .links2 li:active {
@@ -123,6 +129,9 @@ main{
 
 .links2 li:hover h2 {
 	font-size: 34px;
+}
+.links2 img{
+    padding-bottom: 5px;
 }
 
 .links2 h2 {
@@ -149,6 +158,10 @@ footer{
     bottom: 0;
 }
 footer p{
-    color: black;
-    font-family: cursive;
+    color: black;   
+}
+
+.imagens-logo{
+    width: 50px;
+    height: 50px;
 }
