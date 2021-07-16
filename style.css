@@ -42,13 +42,18 @@ main{
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+    box-shadow: 0 0 1em black;
+    transition: 1s all;
 }
 .links li:hover {
-	border-color: #C78C19;
+	border-color: grey;
+    border-color: grey;
+    background-color: #cccccc;
+    transform: scale(1.2);
 }
 
 .links li:active {
-	border-color: #088C19;	
+	border-color: white;	
 }
 
 .links li:hover h2 {
@@ -83,7 +88,7 @@ main{
 }
 .links-curriculos-ingles:hover{
     text-decoration: underline;
-    color: #000099;
+    color: #000000;
 }
 .links-curriculos img{
     width: 20px;
@@ -103,13 +108,17 @@ main{
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+    box-shadow: 0 0 1em black;
+    transition: 1s all;
 }
 .links2 li:hover {
-	border-color: #C78C19;
+	border-color: grey;
+    background-color: #cccccc;
+    transform: scale(1.2);
 }
 
 .links2 li:active {
-	border-color: #088C19;	
+	border-color: white;	
 }
 
 .links2 li:hover h2 {
