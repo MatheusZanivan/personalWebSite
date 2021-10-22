@@ -155,6 +155,7 @@ footer{
 	background: #d9d9d9; 
 	padding: 60px 10px;
     bottom: 0;
+    height: 100%;
 }
 footer p{
     color: black;   
